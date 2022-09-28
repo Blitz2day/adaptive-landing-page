@@ -1,0 +1,467 @@
+@font-face {
+    font-family: Tavolga;
+    src: url("../fonts/TavolgaFree.ttf");
+}
+
+@font-face {
+    font-family: GilroyRegular;
+    src: url("../fonts/GIlroyRegular.ttf");
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url("../fonts/GilroyBold.ttf");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url("../fonts/GilroyMedium.ttf");
+}
+
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url("../fonts/GilroyExtraBold.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Tavolga", sans-serif;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+     
+}
+
+#header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 15px 30px 15px; 
+}
+
+.logo {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#header-menu {
+    font-family: "GilroyMedium", sans-serif;
+    margin-right: 60px;
+}
+
+#header-menu a.header-menu-item {
+    font-size: 14px;
+    color: rgb(119, 11, 29);
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+#header-menu a.header-menu-item:hover {
+    border-bottom: 2px solid rgb(130, 19, 40);;
+     
+}
+
+.contact {
+    font-size: 16px;
+    font-family: "GilroyBold",sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#description {
+    background-color: rgb(235, 168, 177);
+}
+
+#description-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 125px 15px 108px 15px;
+}
+
+#description-text {
+    max-width: 581px;
+}
+
+#description-text h1 {
+    margin: 0;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+
+}
+  
+
+#description-text #description-text-info {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    max-width: 350px;
+    line-height: 1.389;
+
+}
+ 
+
+#description-text-action {
+    margin-top: 80px;
+}
+
+
+.btn {
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    width: 240px;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 19px;
+    border: 0;
+    border-radius: 33px;
+}
+
+#description-text-action button:hover {
+    background-image: -moz-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+}
+
+#description-image {
+    margin-left: 14px;
+}
+
+#description-image img {
+    width: 530px;
+}
+
+
+#advantages {
+    background-color: rgb(255, 239, 239);
+}
+
+#advantages-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#advantages-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#advantages-text {
+    margin-top: 120px;
+    max-width: 475px;
+}
+
+#advantages-text .advantages-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+}
+
+#advantages-text .advantages-description {
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 400px;
+}
+
+#advantages-image {
+    margin-left: 150px;
+}
+
+#advantages-image img {
+    width: 520px;
+}
+
+#advantages-items {
+    padding: 110px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+#advantages-items .advantage-item .item-number {
+    font-family: "GilroyExtraBold", sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+#advantages-items .advantage-item .item-title {
+    font-family: "GilroyExtraBold", sans-serif;
+    font-size: 20px;
+    color: rgb(51, 25, 7);
+    margin-top: 20px;
+}
+
+#advantages-items .advantage-item .item-description {
+    font-size: 15px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    margin-top: 20px;
+    max-width: 215px;
+}
+
+#actions {
+    background-color: rgb(235, 168, 177);
+      
+}
+
+#actions-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+#acitons-title {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+#actions-items {
+    margin-top: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+#actions-items .action-item {
+    width: 263px;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-right: 29px;
+}
+
+#actions-items .action-item:last-child {
+    margin-right: 0;
+}
+
+.action-item .action-image {
+    position: relative;
+}
+
+.action-item .action-image img {
+    position: absolute;
+    width: 192px;
+    top: -96px;
+    left: 34px;
+}
+
+.action-item .action-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 110px;
+}
+
+.action-item .action-order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+    max-width: 220px;
+    margin: 26px auto;
+}
+
+.action-order .order-amount,
+.action-order .order-price {
+    font-size: 15px;
+    font-family: "GilroyRegular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.action-order .order-price {
+    margin-top: 16px;
+}
+
+
+
+.action-order .order-button.btn {
+    padding: 15px;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.action-order .order-button.btn:hover {
+    background-image: -moz-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+}
+
+#form {
+    background-color: #ffefef;
+}
+
+#form-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#form-image {
+    margin-left: 15px;
+}
+
+#additional-image1 {
+    position: absolute;
+    left: 50px;
+    top: 130px;
+}
+
+#additional-image2 {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+
+}
+
+#form-text {
+    max-width: 420px;
+    padding-bottom: 120px;
+    margin-left: 90px;
+}
+
+#form-text .form-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    -moz-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -webkit-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -ms-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    padding-top: 98px;
+}
+
+#form-text .form-description {
+    font-size: 18px;
+    font-family: "GilroyRegular",sans-serif;
+    color: rgb(51, 25, 7);
+    margin-top: 41px;
+    padding-bottom: 8px;
+}
+
+#form-text .form-mini-title {
+    font-size: 18px;
+    font-family: "GilroyBold",sans-serif;
+    color: rgb(18, 10, 6);
+    margin-top: 40px;
+}
+
+#form-text .form-input input {
+    border: 1px solid rgb(130, 19, 40);;
+    border-radius: 30px;
+    width: 293px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 22px;
+    background: transparent;
+    outline: 0;
+}
+
+
+.form-input input::placeholder {
+    font-size: 15px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(118, 12, 34);
+    -moz-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -webkit-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    -ms-transform: matrix( 1.00011967125209,0,0,1.00072983989549,0,0);
+    background: transparent;
+    border: 0;
+    position: relative;
+
+}
+
+.form-button.btn {
+    margin-top: 20px;
+    width: 253px;
+    text-align: center;
+}
+
+.form-button.btn:hover {   
+    background-image: -moz-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+}
+
+
+#footer {
+    background: rgb(192, 112, 124);
+}
+
+#footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 75px 15px 60px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-left #rights {
+    font-size: 12px;
+    font-family: "GilroyRegular",sans-serif;
+    color: rgb(227, 172, 180);
+    -moz-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    -ms-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    margin-top: 20px;
+}
+
+#footer-middle #insta-image {
+    text-align: center;
+}
+
+#footer-middle #insta-image svg {
+    fill: white;
+    width: 35px;
+
+}
+
+#footer-middle #insta-text {
+    font-size: 16px;
+    font-family: "GilroyBold",sans-serif;
+    color: rgb(255, 255, 255);
+    -moz-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    -webkit-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    -ms-transform: matrix( 1,0,0,0.99837443537405,0,0);
+    text-align: center;
+    margin-top: 5px;
+}
+
+#burger {
+    display: none;
+}
+
+#header-menu svg {
+    display: none;
+}
